@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_item_height"
+    android:paddingLeft="@dimen/custom_item_thick_padding"
+    android:paddingRight="@dimen/custom_item_thick_padding">
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date"
+        android:layout_alignRight="@+id/title"
+        android:background="@drawable/section_bg"
+        android:paddingBottom="@dimen/section_padding_bottom"
+        android:paddingLeft="@dimen/section_width_padding"
+        android:paddingRight="@dimen/section_width_padding"
+        android:text="@string/section_text"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/title_bottom_margin"
+        android:gravity="left"
+        android:text="@string/article_title_text"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/title"
+        android:text="@string/date_text" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/author_padding_top"
+        android:text="@string/author_text"
+        android:textColor="@color/author_color"
+        android:textStyle="italic" />
+</RelativeLayout>

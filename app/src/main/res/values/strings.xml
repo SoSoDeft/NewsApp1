@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="empty_state_text">Oops...no article data available.</string>
+    <string name="no_internet_text">Check your internet connection.</string>
+    <string name="section_text">Section</string>
+    <string name="article_title_text">ARTICLE TITLE</string>
+    <string name="date_text">Date</string>
+    <string name="author_text">Author</string>
+</resources>
